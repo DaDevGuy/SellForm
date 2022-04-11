@@ -1,0 +1,13 @@
+name: SellUI
+main: SellUI\DaDevGuy\Main
+author: DaDevGuy
+api: [4.0.0]
+depend:
+  - SellAll
+commands:
+  sellui:
+    description: "Open SellUI"
+    permission: sellui.use
+permissions:
+  sellui.use:
+    default: true
